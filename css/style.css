@@ -1,0 +1,54 @@
+
+/* Цвет основного текста #212121*/
+/*вторичный цвет 
+#757575*/
+/*белый цвет #FFFFFF*/
+/*черный цвет #000000*/
+/*акцент, логотип #2196F3*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --background-color: #2F303A;
+}
+
+ul{
+    list-style: none;
+}
+/* .page {
+    background-color: #fff;
+    color: #757575;  */
+
+
+/* Шапка сайта */
+.logo {
+    color: #000000;
+}
+.logo:hover {
+    color: #2196F3;
+}
+span {
+    color: #2196F3;
+}
+/* Site nav */
+.site-nav a {
+    color: #212121;
+        }
+        .site-nav a:hover, .site-nav a:focus{
+            color: #2196F3;
+}
+.contact-nav a{
+    color: var(--primary-text-color);
+}
+.contact-nav a:hover, .contact-nav a:focus{
+    color: var(--accent-color);
+}
+/* hero */
+.hero-title {
+    background-color: #2F303A;
+   color: #FFFFFF;
+;
+}
+/* Наші переваги */
