@@ -1,0 +1,51 @@
+/* Цвет основного текста #212121*/
+/*вторичный цвет 
+#757575*/
+/*белый цвет #FFFFFF*/
+/*черный цвет #000000*/
+/*акцент, логотип #2196F3*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --background-color: #2f303a;
+  --whight-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+.page {
+  background-color: var(--whight-color);
+  color: var(--primary-text-color);
+}
+/* Шапка сайта */
+.logo {
+  color: var(--logo-color);
+}
+.logo:hover {
+  color: var(--accent-color);
+}
+span {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Site nav */
+.site-nav a {
+color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+color: var(--accent-color);
+}
+.contact-nav a {
+color: var(--primary-text-color);
+}
+.contact-nav a:hover,
+.contact-nav a:focus {
+color: var(--accent-color);
+}
