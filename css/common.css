@@ -4,7 +4,6 @@
 /*белый цвет #FFFFFF*/
 /*черный цвет #000000*/
 /*акцент, логотип #2196F3*/
-
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -12,6 +11,8 @@
   --logo-color: #000000;
   --background-color: #2f303a;
   --whight-color: #ffffff;
+  --button-primery-color: #f5f4fa;
+  --button-secondary-color: #2196f3;
 }
 
 ul {
@@ -20,32 +21,52 @@ ul {
 .page {
   background-color: var(--whight-color);
   color: var(--primary-text-color);
-}
-/* Шапка сайта */
+ }
+
+ /* Шапка сайта */
 .logo {
   color: var(--logo-color);
-}
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  }
 .logo:hover {
   color: var(--accent-color);
 }
 span {
   color: var(--accent-color);
-}
+  }
+
+/* Site nav */
 .site-nav .link.current {
   color: var(--accent-color);
 }
-/* Site nav */
 .site-nav a {
-color: var(--title-text-color);
+  color: var(--title-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-weight: bold;
+font-size: 16px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .site-nav a:focus {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 .contact-nav a {
-color: var(--primary-text-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 .contact-nav a:hover,
 .contact-nav a:focus {
-color: var(--accent-color);
+  color: var(--accent-color);
+}
+.text {
+  color: var(--primary-text-color);
 }

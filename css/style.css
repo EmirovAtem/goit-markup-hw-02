@@ -1,17 +1,22 @@
 
 /* hero */
-.hero-title {
-  background-color: var(--background-color);
-  color: var(--whight-color);
+.hero-titles { 
+color: var(--whight-color);
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
 }
 /* button */
 .button {
-  color: var(--whight-color);
+      color: var(--whight-color);
   background: var(--accent-color);
+ 
 }
 /* section */
-.section {v
-  background-color: ar(--whight-color);
+.section {
+  background-color: var(--whight-color);
   color: var(--title-text-color);
 }
 
@@ -19,7 +24,7 @@
 .feature-list .title {
   color: var(--title-text-color);
 }
-.feature-list .paragraph {
+.feature-list .text {
   color: var(--primary-text-color);
 }
 
@@ -31,9 +36,18 @@
 .team-list .title {
   color: var(--title-text-color);
 }
-.team-list .paragraph {
+.team-list .text {
   color: var(--primary-text-color);
 }
-.portfolio-list .paragraph {
+.portfolio-list .text {
     color: var(--primary-text-color);
 }
+.buttons {
+  color: var(--title-text-color);
+  background-color: var(--button-primery-color);
+  }
+  .buttons:hover, .buttons:focus {
+    color: var(--whight-color);
+    background-color: var(--button-secondary-color);
+    
+  }
