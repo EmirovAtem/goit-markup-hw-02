@@ -1,23 +1,16 @@
-
 /* hero */
-.hero-title { 
-color: var(--whight-color);
-font-family: 'Roboto', sans-serif;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
+.hero-title {
+  color: var(--whight-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
 }
 /* button */
 .button {
-      color: var(--whight-color);
+  color: var(--whight-color);
   background: var(--accent-color);
- 
-}
-/* section */
-.section {
-  background-color: var(--whight-color);
-  color: var(--title-text-color);
 }
 
 /* Наші переваги */
@@ -40,14 +33,14 @@ text-align: center;
   color: var(--primary-text-color);
 }
 .portfolio-list .text {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 .buttons {
   color: var(--title-text-color);
   background-color: var(--button-primery-color);
-  }
-  .buttons:hover, .buttons:focus {
-    color: var(--whight-color);
-    background-color: var(--button-secondary-color);
-    
-  }
+}
+.buttons:hover,
+.buttons:focus {
+  color: var(--whight-color);
+  background-color: var(--button-secondary-color);
+}
